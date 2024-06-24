@@ -7,7 +7,11 @@ const subTodoSchema = new mongoose.Schema({
     },
     complete: {
         type: Boolean,
+<<<<<<< HEAD
         default: false 
+=======
+        default: false
+>>>>>>> origin/codespace-musical-space-couscous-wrrvxj476wg43vv9x
     },
     createdBy: {
         type: mongoose.Schema.Types.ObjectId,
